@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.0.1'
 # Use pg as the database for Active Record
 gem 'pg'
+# CORS
+gem 'rack-cors', :require => 'rack/cors'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
